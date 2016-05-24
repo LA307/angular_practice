@@ -1,0 +1,13 @@
+photo=Photo
+status=Status
+username=Username
+first=First name
+last=Surname name
+email=Email
+processing=Loading...
+loaderror=Users load failed!
+emptylist=No items found
+enablefiltering=Enable table filtering
+filterbyname=Filter by Ures Name
+
+backtolist=Back to User list

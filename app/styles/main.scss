@@ -1,0 +1,54 @@
+@import 'styles.scss';
+@import '../../bower_components/sass-bootstrap/lib/bootstrap';
+
+body {
+  min-height: 500px;
+  padding: 30px;
+  // body size here will not affect the document, but will allow us to do a scrolling while dragging the items
+}
+
+html {
+  height: 100%;
+}
+
+i.glyphicon {
+  color: #000000;
+}
+.account-info{
+  width: 200px
+}
+
+.preview-modal{
+  width: 500px;
+}
+
+.btn-primary{
+  i {
+    color: white;
+  }
+}
+.new-rm-description{
+    float: left;
+}
+.action-buttons{
+
+    .action-button{
+        float: right;
+        margin-left: 10px;
+    }
+}
+
+
+
+.ng-cloak {
+  display: none;
+}
+
+.avatar{
+  border: 1px dotted orange;
+  border-radius: 50%;
+  width:100px;
+}
+.active {
+  background-color: plum;
+}

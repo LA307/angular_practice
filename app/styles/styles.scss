@@ -1,0 +1,61 @@
+$blueprint-grid-columns:     5;
+$blueprint-grid-width:       150px;
+$blueprint-grid-margin:      20px;
+
+$blueprint-font-family:      Helvetica Neue, Arial, Helvetica, sans-serif;
+$blueprint-fixed-font-family:'andale mono', 'lucida console', monospace;
+$blueprint-font-size:        12px;
+
+$text-color:                 #4a5a55;
+$light-text-color:           #a0a0a0;
+$quote-text-color:           #f27a00;
+$disclosure-text-color:      #ed7c06;
+
+$thick-border:               10px solid #efdfff;
+$dotted-border:              1px dotted #999999;
+
+$header-background-color:    #f07c05;
+$paging-background-color:    black;
+$unfocused-background-color: #f1f0ec;
+$quote-background-color:     #f1f0ec;
+
+$story-title-color:          #f07c05;
+
+
+body {
+  border: $thick-border;
+  color: $text-color;
+}
+
+.content_wrapper {
+  width: 910px;
+}
+
+#header {
+  height: 72px;
+  background: $header-background-color;
+  
+  h1 {
+   a {
+      width: 116px;
+      height: 72px;
+      display: block;
+      text-decoration: none;
+    }
+  }
+
+  ul {
+    padding: 0 0 0 25px;
+    li {
+      padding: 0 20px 0 0;
+      text-transform: uppercase;
+      a {
+        color: #febf0f;
+        text-decoration: none;
+        width: 100px;
+        height: 72px;
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+<h1>Welcome to User Status App</h1>
+
+<!-- Users -->
+<div class="ng-cloak">
+  <div ng-hide="usersCtrl.loadError || usersCtrl.loadingProcess">
+    <label>{{ localeCtrl.localeParams.enablefiltering }}: <input type="checkbox" ng-model="enabledFiltering"></label><br/>
+    <label ng-show="enabledFiltering">{{localeCtrl.localeParams.filterbyname }}: <input id="search" ng-model="searchText"></label>
+    <br><br>
+    <!-- UserListTable -->
+    <user-list users="usersCtrl.users" localeParams="localeCtrl.localeParams" search-text="searchText" enable-search="enabledFiltering" />
+  </div>
+
+  <div ng-show="usersCtrl.loadError">{{ localeCtrl.localeParams.loaderror }}</div>
+  <div ng-show="usersCtrl.loadingProcess">{{ localeCtrl.localeParams.processing }}</div>
+
+</div>

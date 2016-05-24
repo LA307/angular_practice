@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html>
+<head>
+  <title>User Status App</title>
+  <!-- build:css -->
+  <link rel="stylesheet" href="styles/main.css">
+  <!-- endbuild -->
+</head>
+<body ng-app="UserStatus" ng-controller="LocaleController as localeCtrl">
+
+<!-- Languages navigation -->
+<div class="ng-cloak">
+  <a href="" ng-repeat="lang in localeCtrl.languages" ng-click="localeCtrl.setLocale(lang)" ng-class="{'active': localeCtrl.currentLanguage === lang}" >[{{lang}}]</a>
+</div>
+
+<div ng-view></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-cookies.js"></script>
+
+
+
+<!-- build:js -->
+<script src="scripts/app.js"></script>
+<script src="scripts/services.js"></script>
+<script src="scripts/directives.js"></script>
+<script src="scripts/controller.js"></script>
+<!-- endbuild -->
+</body>
+</html>

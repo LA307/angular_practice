@@ -1,0 +1,13 @@
+photo=Foto
+status=Status
+username=Benutzername
+first=Vorname
+last=Nachname
+email=Email
+processing=Laden...
+loaderror=Benutzer konnte nicht geladen werden!
+emptylist=Keine Elemente gefunden
+enablefiltering=Aktivieren Tabelle Filterung
+filterbyname=Filter nach Benutzername
+
+backtolist=Zurück zur Benutzerliste

@@ -1,0 +1,26 @@
+body {
+  border: 10px solid #efdfff;
+  color: #4a5a55; }
+
+.content_wrapper {
+  width: 910px; }
+
+#header {
+  height: 72px;
+  background: #f07c05; }
+  #header h1 a {
+    width: 116px;
+    height: 72px;
+    display: block;
+    text-decoration: none; }
+  #header ul {
+    padding: 0 0 0 25px; }
+    #header ul li {
+      padding: 0 20px 0 0;
+      text-transform: uppercase; }
+      #header ul li a {
+        color: #febf0f;
+        text-decoration: none;
+        width: 100px;
+        height: 72px;
+        display: block; }
